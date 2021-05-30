@@ -149,8 +149,33 @@
   line-height: 19px;
 }
 
-/* ==== PAGINATION ==== */
+/* ==== NOTIFICATION ==== */
 
+.notification {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25vh;
+}
+
+.notification img {
+  pointer-events: none;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;  
+}
+
+.notification span {
+  margin-top: 30px;
+  font-size: 22px;
+  line-height: 140%;
+  color: rgba(128, 128, 128, 1);
+}
+
+/* ==== PAGINATION ==== */
 
 .pagination {
   margin-top: auto;
